@@ -22,7 +22,7 @@ let doorKnockInterval;
 const questions = [
   { q: "Do you like me?", yesText: "Amel helteni natak madbyd ig 😏", noText: "Yaar ni 😅", yesResponse: "😉❤️", noResponse: "😅" },
   { q: "Do you know how much I love you?", yesText: "Ha irbek swlp 💙", noText: "Swlpu illa😆", yesResponse: "You are my everything 💙", noResponse: "Hey! 😅" },
-  { q: "How about Morning's hall set plan?", yesText: "ha haa nodon anth🥰", noText: "Ninv hogirtav modl allimata 😜", yesResponse: "I knew you'd say this 💖", noResponse: "Strong full 😅" },
+  { q: "How about Morning's till hall-set plan?", yesText: "ha haa nodon anth🥰", noText: "Ninv hall hogirtav modl allimata 😜", yesResponse: "I knew you'd say this 💖", noResponse: "Strong full 😅" },
   { q: "Do you like this surprise?", yesText: "Pull Like athu 😍", noText: "ha ok ok 😏😜", yesResponse: "💙Nav gottalla💖", noResponse: "Sull bare 😅" },
 ];
 
