@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For you - 💙</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background hearts container -->
+  <div class="background-hearts" id="bgHearts"></div>
+
+  <!-- Question & Answer Container -->
+  <div class="qa-container" id="qaContainer">
+    <div class="qa-box">
+      <p id="questionText"></p>
+      <div class="qa-buttons">
+        <button id="yesBtn" class="qa-btn yes-btn"></button>
+        <button id="noBtn" class="qa-btn no-btn"></button>
+      </div>
+      <p id="responseText" class="qa-response"></p>
+    </div>
+  </div>
+
+  <!-- Cartoon Man (outside QA container) -->
+  <div class="cartoon-man">
+    <img src="man.png" alt="Vasu">
+  </div>
+
+  <!-- Stage Section -->
+  <div class="stage">
+    <div class="room">
+      <div class="door-wrap">
+        <div class="door-frame">
+          <div id="door" class="door closed" role="button">
+            <div class="panel left">
+              <div class="plank"></div>
+              <div class="knob"></div>
+            </div>
+            <div class="panel right">
+              <div class="plank"></div>
+              <div class="knob"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dog Image & Text -->
+      <div class="dog-container">
+        <div class="speech-bubble">Vasuu is waiting outside, open the door</div>
+        <div class="bark-text">Bark! Bark!</div>
+        <img src="loki.png" alt="Loki the Dog" class="dog">
+      </div>
+
+      <!-- Slide Container -->
+      <div class="slide-container" id="slideContainer">
+        <p class="image-text" id="imageText"></p>
+        <button id="nextBtn" class="btn">Next</button>
+      </div>
+
+      <!-- Hearts Container -->
+      <div class="hearts" id="hearts"></div>
+
+      <!-- Floor -->
+      <div class="floor"></div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button id="openBtn" class="btn">Open the door</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="barkSound" src="bark.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
